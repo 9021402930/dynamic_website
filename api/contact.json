@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name":"viman nagar",
+        "street":"vadgaon sheri",
+        "city":"pune",
+        "state":"maharashtra",
+        "zip":442401,
+        "phone":9021402930
+    },
+    {
+        "id":2,
+        "name":"baner",
+        "street":"vadgaon sheri",
+        "city":"pune",
+        "state":"maharashtra",
+        "zip":442401,
+        "phone":9021402930
+    },
+    {
+        "id":3,
+        "name":"hadapsar",
+        "street":"vadgaon sheri",
+        "city":"pune",
+        "state":"maharashtra",
+        "zip":442401,
+        "phone":9021402930
+    }
+
+]

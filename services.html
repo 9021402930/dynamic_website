@@ -1,0 +1,12 @@
+<h2 class="page-header" >Services</h2>
+<div ng-repeat="item in products" ng-controller="servicesCtrl">
+    <div class="row service">
+        <div class="col-md-2">
+            <img src="{{item.image}}">
+        </div>
+        <div class="col-md-10">
+            <h2>{{item.name}}</h2>
+            <p>{{item.description}}</p>
+        </div>
+    </div>
+</div>

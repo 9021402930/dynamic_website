@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    
+    <title>Computer Solutions</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body ng-app="computer">
+    <div class="container">
+        <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+        <div class="masthead">
+            <h3 class="text-muted">Computer Solution</h3>
+            <nav>
+                <ul class="nav nav-justified">
+                    <li><a href="#!main">Home</a></li>
+                    <li><a href="#!services">Services</a></li>
+                    <li><a href="#!about">About</a></li>
+                    <li><a href="#!contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <ng-view></ng-view>
+        </div>
+
+        
+       
+        <footer class="footer">
+            <p>&copy; 2016 Company, Inc.</p>
+        </footer>
+
+    </div> <!-- /container -->
+
+
+
+</body>
+
+</html>
